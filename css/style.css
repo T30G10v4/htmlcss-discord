@@ -269,8 +269,14 @@ section img {
 
 }
 
-/*FOOTER*/
 
+#special .button {
+
+  margin: 2em 0;
+
+}
+
+/*FOOTER*/
 footer {
 
   background-color: #23272a;
