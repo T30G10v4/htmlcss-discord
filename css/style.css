@@ -316,9 +316,9 @@ footer .element aside {
 }
 
 /* FOOTER MAIN */
-footer main h2 {
+.footer-main-h2 h2 {
 
-  font-size: 2rem;
+  font-size: 4rem;
   color: #4f5d8c;
   /*margin-left: 1em;*/
 
@@ -333,9 +333,13 @@ footer main img {
 
 }
 
-/* .footer-main-social-links,
-.footer-main-img-span, */
+.footer-main-h2,
+.footer-main-img-span,
+.footer-main-social-links {
 
+  padding-bottom: 2em;
+
+}
 
 .footer-main-social-links,
 .footer-main-img-span span {
@@ -344,6 +348,37 @@ footer main img {
   color: white;
 
 }
+
+.footer-main-social-links > * {
+
+  margin-right: 1em;
+
+}
+
+/*FOOTER ASIDE*/
+
+footer aside ul
+{
+  list-style-type: none;
+}
+
+footer aside h3 {
+
+  font-size: 2rem;
+  color: #4f5d8c;
+  padding-bottom: 1em;
+
+}
+
+footer aside li {
+
+  color: white;
+  font-size: 2rem;
+  padding-bottom: 1em;
+
+}
+
+
 
 
 
