@@ -300,7 +300,7 @@ footer .element aside {
 .bar {
 
   
-  background-color: #7fffd4;
+  /*background-color: #7fffd4;*/
   justify-content: space-between;
   padding: 2em 0;
 
@@ -308,8 +308,8 @@ footer .element aside {
 
 .bar .logo, .bar .button {
 
-  background-color: #ffb6c1;
-  border: 1px dashed black;
+ /* background-color: #ffb6c1;*/
+  /*border: 1px dashed black;*/
   font-size: 3rem;
 
 
@@ -378,9 +378,33 @@ footer aside li {
 
 }
 
+.bar .button {
+
+  font-size: 1rem;
+  vertical-align: center;
+
+}
+
+.element.bar {
+  
+  border: 0px;
+
+}
 
 
+/*WAVE*/
+.wave {
 
+  background-image: url("../img/wave.svg");
+
+}
+
+.wave-reverse {
+
+  background-image: url("../img/wave.svg");
+  transform:scaleX(-1);
+
+}
 
 
 
