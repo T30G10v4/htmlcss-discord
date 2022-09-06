@@ -224,14 +224,14 @@ header li {
 .element main {
 
   width: 55%;
-  background-color: #1e90ff;
+  /*background-color: #1e90ff;*/
   
 }
 
 .element aside {
 
   width: 45%;
-  background-color: #ffc0cb;
+  /*background-color: #ffc0cb;*/
 
 }
 
@@ -252,7 +252,7 @@ section img {
 
   width: 100%;
   min-height: 600px;
-  background-color: #228b22;
+  /*background-color: #228b22;*/
   text-align: center;
 
 }
@@ -286,14 +286,14 @@ footer .element {
 
 footer .element main {
 
-  background-color: #f08080; 
+  /*background-color: #f08080; */
 
 }
 
 footer .element aside {
 
-  background-color: #20b2aa;
-  border: 1px dashed white;
+  /*background-color: #20b2aa;*/
+  /*border: 1px dashed white;*/
 
 }
 
@@ -318,7 +318,7 @@ footer .element aside {
 /* FOOTER MAIN */
 .footer-main-h2 h2 {
 
-  font-size: 4rem;
+  font-size: 3rem;
   color: #4f5d8c;
   /*margin-left: 1em;*/
 
