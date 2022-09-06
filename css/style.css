@@ -91,7 +91,7 @@ header {
 
 .navigation div {
 
-  border: 1px dashed black;
+  /*border: 1px dashed black;*/
   width: 8%;
 
 }
@@ -149,7 +149,7 @@ header li {
 .jumbotron main {
 
   min-height: 600px;
-  border: 1px dashed black;
+  /*border: 1px dashed black;*/
   /*background-color: #ee82ee;*/
   margin: 0 12em;
   text-align: center;
@@ -217,7 +217,7 @@ header li {
 .element main, .element aside {
 
   min-height: 300px;
-  border: 1px dashed black;
+  /*border: 1px dashed black;*/
 
 }
 
@@ -238,6 +238,12 @@ header li {
 .first main, .third main {
 
   text-align: end;
+
+}
+
+section img {
+
+  width: 100%;
 
 }
 
@@ -268,6 +274,13 @@ header li {
 footer {
 
   background-color: #23272a;
+
+}
+
+footer .element {
+
+  border-bottom: 1px solid #4f5d8c;
+  padding: 2em 0;
 
 }
 
