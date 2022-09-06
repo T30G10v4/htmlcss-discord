@@ -315,6 +315,39 @@ footer .element aside {
 
 }
 
+/* FOOTER MAIN */
+footer main h2 {
+
+  font-size: 2rem;
+  color: #4f5d8c;
+  /*margin-left: 1em;*/
+
+
+}
+
+footer main img {
+
+  display: inline-block;
+  width: 8%;
+  /*margin-left: 1em;*/
+
+}
+
+/* .footer-main-social-links,
+.footer-main-img-span, */
+
+
+.footer-main-social-links,
+.footer-main-img-span span {
+
+  font-size: 3rem;
+  color: white;
+
+}
+
+
+
+
 
 
 
