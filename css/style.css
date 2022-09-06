@@ -1,0 +1,310 @@
+/*RESET*/
+* {
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+/*HTML*/
+html {
+
+  font-size: 62.5%; /*Per avere 10px in proporzione al font base (16px : 100% = 10px : x%)*/
+  font-family: 'Whitney', sans-serif;
+
+}
+
+/*CLEARFIX PER ELEMENTI FLOAT*/
+.clearfix::after {
+
+  content:"";
+  clear: both;
+  display: table;
+  
+}
+
+/*TEST RULE*/
+/* p {
+
+  color: red;
+
+} */
+
+/*COMMON*/
+.container {
+
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 2em;
+  padding-bottom: 2em;
+
+}
+
+.button {
+
+  border-radius: 2em;
+  background-color: white;
+  font-size: 2rem;
+  text-align: center;
+  color: black;
+  padding: 1em;
+
+}
+
+a {
+
+  text-decoration: none;
+
+}
+
+.element h2 {
+
+  font-size: 6.5rem;
+
+}
+
+.element p {
+
+  font-size: 3rem;
+
+}
+
+/* HEADER */
+header {
+
+  /*min-height: 300px;*/
+  background-color: #2a5ee8;
+
+}
+
+.navigation {
+
+  display: flex;
+  justify-content: space-between;
+ /* background-color: #daa520;*/
+  font-size: 3rem;
+  align-content: center;
+
+
+}
+
+.navigation div {
+
+  border: 1px dashed black;
+  width: 8%;
+
+}
+
+.navigation .links {
+
+  text-align: center;
+  flex-grow: 1;
+
+
+}
+
+#accedi {
+
+  font-size: 1.2rem;
+  
+
+}
+
+header .element {
+
+  justify-content: center;
+  gap: 2em;
+
+
+}
+
+header li {
+
+  list-style-type: none;
+  font-size: 2rem;
+  color: white;
+
+
+}
+
+/*
+.navigation .login {
+
+  text-align: end;
+
+}
+*/
+
+/*JUMBOTRON*/
+
+.jumbotron {
+
+  background-image: url("../img/jumbo.png");
+  background-size: cover;
+  /*background-color: blue;*/
+
+}
+
+.jumbotron main {
+
+  min-height: 600px;
+  border: 1px dashed black;
+  /*background-color: #ee82ee;*/
+  margin: 0 12em;
+  text-align: center;
+
+}
+
+.jumbotron h1, .jumbotron p {
+
+  color: white;
+
+}
+
+.jumbotron h1 {
+  margin-top: 2em;
+  margin-bottom: 1em;
+  font-size: 6.5rem;
+  
+}
+
+.jumbotron p {
+
+  margin-bottom: 2em;
+  font-size: 2rem;
+
+}
+
+.jumbotron .element {
+
+  padding-top: 4em;
+  justify-content: center;
+  gap: 2em;
+
+}
+
+#black-button {
+
+  color: white;
+  background-color: #23272a;
+
+}
+
+/*SECTIONS*/
+
+/*FIRST*/
+.first {
+
+  background-color: white;
+
+}
+
+/*SECOND*/
+.second {
+
+  background-color: #d3d3d3;
+
+}
+
+/*REST OF SECTIONS*/
+.element {
+
+  display: flex;
+
+}
+
+.element main, .element aside {
+
+  min-height: 300px;
+  border: 1px dashed black;
+
+}
+
+.element main {
+
+  width: 55%;
+  background-color: #1e90ff;
+  
+}
+
+.element aside {
+
+  width: 45%;
+  background-color: #ffc0cb;
+
+}
+
+.first main, .third main {
+
+  text-align: end;
+
+}
+
+/*SPECIAL SECTION*/
+#special main {
+
+  width: 100%;
+  min-height: 600px;
+  background-color: #228b22;
+  text-align: center;
+
+}
+
+#special .button
+{
+  display: inline-block;
+}
+
+#special h3 {
+
+  background-image: url("../img/stars.svg");
+  font-size: 6.5rem;
+
+}
+
+/*FOOTER*/
+
+footer {
+
+  background-color: #23272a;
+
+}
+
+footer .element main {
+
+  background-color: #f08080; 
+
+}
+
+footer .element aside {
+
+  background-color: #20b2aa;
+  border: 1px dashed white;
+
+}
+
+.bar {
+
+  
+  background-color: #7fffd4;
+  justify-content: space-between;
+  padding: 2em 0;
+
+}
+
+.bar .logo, .bar .button {
+
+  background-color: #ffb6c1;
+  border: 1px dashed black;
+  font-size: 3rem;
+
+
+}
+
+
+
+
+
+
+
